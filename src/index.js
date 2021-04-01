@@ -18,6 +18,6 @@ export default function rawLoader(source) {
   const esModule =
     typeof options.esModule !== 'undefined' ? options.esModule : true;
   const native = typeof options.native !== 'undefined' ? options.native : false;
-  if (native) return source;
+  if (native) return `${source}`;
   return `${esModule ? 'export default' : 'module.exports ='} ${json};`;
 }
