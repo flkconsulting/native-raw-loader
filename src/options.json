@@ -1,0 +1,12 @@
+{
+  "additionalProperties": false,
+  "properties": {
+    "esModule": {
+      "type": "boolean"
+    },
+    "native": {
+      "type": "boolean"
+    }
+  },
+  "type": "object"
+}
